@@ -22,3 +22,46 @@
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
 replay_pid*
+
+
+# Maven
+target/
+.mvn/timing.properties
+
+# IDE
+.idea/
+*.iml
+.vscode/*
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+.classpath
+.project
+.settings/
+
+# Node / React
+node_modules/
+dist/
+dist-ssr/
+.vite/
+coverage/
+*.local
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.jks
+secrets/
+application-local.yaml
+application-local.yml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# npm logs
+npm-debug.log*
